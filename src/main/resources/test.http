@@ -1,0 +1,17 @@
+### current time
+GET localhost:8081/current_time
+
+### create sturdent
+POST localhost:8081/student
+Content-Type: application/json
+
+{
+  "name": "Toshmat",
+  "surname": "Toshmatov"
+}
+
+### student list
+GET localhost:8081/student
+
+### get student by id
+GET localhost:8081/student_id/a1df3b65-06aa-466d-bdf2-31ba1a9403c5
